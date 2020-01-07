@@ -1,12 +1,12 @@
 @font-face {
-    font-family: 'public-sans';
-    src: url(../fonts/PublicSans-Regular.woff);
+    font-family: 'sohne-buch';
+    src: url(../fonts/sohne-test-buch.woff);
 }
 
 @font-face {
-    font-family: 'public-sans';
-    src: url(../fonts/PublicSans-ExtraLight.woff);
-    font-weight: 200;
+    font-family: 'sohne-leicht';
+    src: url(../fonts/soehne-test-leicht.woff);
+    font-weight: 300;
 }
 
 * {
@@ -15,22 +15,19 @@
 
 html {
     font-size: 17px;
+    color: #172B4D;
 }
 
 body {
-    font-family: 'public-sans', sans-serif;
-    background: #f7f9fa;
-}
-
-.super {
-    text-align: center;
+    padding: 1rem;
+    font-family: 'sohne-buch', sans-serif;
 }
 
 main {
     max-width: 900px;
     padding: 3rem;
     margin: auto;
-    background: #ffffff;
+    /* background: #ffffff; */
 }
 
 .hero {
@@ -38,16 +35,18 @@ main {
     flex-direction: column;
 }
 
+a {
+    color: rgba(0, 82, 204, 1);
+    font-size: .9rem;
+}
+
 p {
-    font-weight: 200;
+    font-family: 'sohne-leicht';
+    font-weight: 300;
 }
 
 h2:first-of-type {
     margin-bottom: -1rem;
-}
-
-blockquote {
-    margin: 0 0 2rem 0;
 }
 
 h3 {
@@ -56,16 +55,28 @@ h3 {
 }
 
 h4 {
-    margin-bottom: -.5rem;
+    margin-bottom: -.4rem;
+    font-style: italic;
+    font-weight: 400;
 }
 
 ul {
     padding: 0;
     list-style: none;
     margin-bottom: 2.4rem;
+    font-family: 'sohne-leicht';
     font-weight: 300;
 }
 
 ul > li {
     margin-bottom: .5rem;
+}
+
+@media (max-width: 900px) {
+    body {
+        padding: 0 .3rem
+    }
+    main {
+        padding: 1rem;
+    }
 }
