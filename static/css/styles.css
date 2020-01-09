@@ -9,6 +9,12 @@
     font-weight: 300;
 }
 
+@font-face {
+    font-family: 'sohne-halbfett';
+    src: url(..fonts/soehne-test-halbfett.woff);
+    font-weight: 600;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -16,6 +22,8 @@
 html {
     font-size: 17px;
     color: #172B4D;
+    font-family: 'sohne-leicht';
+    font-weight: 300;
 }
 
 body {
@@ -27,22 +35,35 @@ main {
     max-width: 900px;
     padding: 3rem;
     margin: auto;
-    /* background: #ffffff; */
-}
-
-.hero {
-    display: flex;
-    flex-direction: column;
-}
-
-a {
-    color: rgba(0, 82, 204, 1);
-    font-size: .9rem;
 }
 
 p {
-    font-family: 'sohne-leicht';
-    font-weight: 300;
+    line-height: 1.4;
+}
+
+nav > ul > li {
+    margin-bottom: 1rem;
+}
+
+nav > ul > li > a {
+    text-decoration: none;
+    color: #172B4D;
+    font-family: 'sohne-halbfett', sans-serif;
+    font-weight: 600;
+}
+
+.about-farley {
+    font-size: 24px;
+}
+
+p > a {
+    text-decoration: none;
+    color: #172B4D;
+}
+
+strong {
+    font-family: 'sohne-buch', sans-serif;
+    font-weight: 400;
 }
 
 h2:first-of-type {
@@ -78,5 +99,30 @@ ul > li {
     }
     main {
         padding: 1rem;
+    }
+}
+
+@media(min-width: 540px) {
+    .about-farley {
+        font-size: 32px;
+    }
+}
+
+@media(min-width: 720px) {
+    .about-farley {
+        font-size: 48px;
+    }
+}
+
+
+@media(min-width: 1080px) {
+    nav > ul {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    nav > ul > li {
+        margin-right: 4rem;
     }
 }

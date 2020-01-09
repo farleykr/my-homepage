@@ -3,11 +3,10 @@ layout: base.njk
 ---
 
 ## Farley Kurt Reynolds II
-farleykreynolds at gmail dot com
-757-636-7432 
-<a href="#" download>DOWNLOAD RESUME AS PDF</a>
+farleykreynolds@gmail.com
+757-636-7432
 
-*Currently serving as a web developer at NASA's Atmospheric Science Data Center at the Langley Research Center in Hampton, VA*
+* *Currently serving as a web developer at NASA's Atmospheric Science Data Center at the Langley Research Center in Hampton, VA*
 
 ### TECHNICAL SKILLS
 
@@ -31,7 +30,7 @@ farleykreynolds at gmail dot com
 #### Web Developer, NASA Atmospheric Science Data Center, June 2019 - Present
 
 * My primarity responsibility is the building and maintenance of a web application that receives and translates data from satellites so they can be used for scientific research
-* Said web application is built with Django, backed by a PostgreSQL database, version controlled by Git, and deployed on Red Hat OpenShift on-premisise cloud
+* Said web application is built with Django, draws data from a variety of sources, is backed by a PostgreSQL database, version controlled by Git, and deployed on Red Hat OpenShift on-premisise cloud
 * I organize and facilitate a weekly Developer Community of Practice meeting
 * A good portion of my time is spent mentoring less experienced developers via official training sessions and code reviews
 * All our work at the ASDC is conducted within the Scaled Agile Framework
@@ -43,20 +42,20 @@ farleykreynolds at gmail dot com
 * We regularly handled the deployment/configuration of new products and updates to existing products across all the networks we managed
 * My team was responsible for communication with personnel across almost a dozen different networks, all with different needs in regards to timelines, types of assets managed, security posture, and uptime requirements.  Examples include 911 call centers and Guantanamo Bay.
 * I regularly wrote SOPs in regards to operation and troubleshooting of HBSS software
-* I was also called upon specifically to handle cross training between teams
+* I was also called upon to handle cross training between teams
 
 
 #### HBSS Administrator, Navy Marine Corps Intranet (NMCI), April 2016 – April 2017
  
-* Was responsible for collaborating with software vendor representatives to deploy, upgrade, and maintain IA products in use on the NMCI network - primarily McAfee and Symantec products.
-* Helped develop internal documentation for team’s processes and procedures
-* Developed tools using Windows PowerShell that streamlined workflows and reduced time to complete daily tasks.
+* In this role I was responsible for collaborating with software vendor representatives to deploy, upgrade, and maintain IA products in use on the NMCI network - primarily McAfee and Symantec products.
+* I helped develop internal documentation for team’s processes and procedures
+* I also developed tools using Windows PowerShell that streamlined workflows and reduced time to complete daily tasks.
 
 
 #### Tier 3 System Administrator, NMCI, February 2015 – April 2016
 
-* My team served as last stop in escalation chain between end users and vendors, which means we were responsible for troubleshooting issues that no one else could solve
-* 
+* My team served as last stop in escalation chain between end users and vendors, which means we were responsible for troubleshooting a wide variety of complex issues
+* I developed a PowerShell module to capture and record logs for troubleshooting issues with network monitoring software
 * I served as one of two Subject Matter Experts for Microsoft EMET 
 * We performed largest deployment of Microsoft EMET to date (according to local Microsoft vendor reps)
  
@@ -73,10 +72,10 @@ farleykreynolds at gmail dot com
 
 #### Tier 1 Agent, NMCI Service Desk, November 2010 – November 2011
 
-* Responsible for answering phone calls from military personnel and civilians and resolving or escalating their PC, laptop, network, account, or software issues
-* Specifically sought by leadership for training and advising new agents 
-* Consistently recognized as top performer for receiving perfect scores on QA audits 
-* Specifically chosen to assist higher tiered teams while at the help desk level
+* My primary responsibility on the service desk was answering phone calls from military personnel and civilian contractors and resolving or escalating their PC, laptop, network, account, or software issues
+* I was specifically sought by leadership for training and advising new agents 
+* I was consistently recognized as top performer for receiving perfect scores on QA audits 
+* And I was specifically chosen to assist higher tiered teams while at the service desk level
 
 
 ### EDUCATION 
