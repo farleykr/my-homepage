@@ -6,7 +6,7 @@ layout: base.njk
 farleykreynolds@gmail.com
 757-636-7432
 
-* *Currently serving as a web developer at NASA's Atmospheric Science Data Center*
+* *Consultant with Booz Allen Hamilton.  Currently serving as a web developer at NASA's Atmospheric Science Data Center*
 
 ### TECHNICAL SKILLS
 
