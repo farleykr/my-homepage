@@ -1,18 +1,25 @@
 @font-face {
-    font-family: 'sohne-buch';
-    src: url(../fonts/sohne-test-buch.woff);
+    font-family: 'basier-reg';
+    src: url(../fonts/basiersquare-regular-webfont.woff),
+         url(..fonts/basiersquare-regular-webfont.woff2);
 }
 
 @font-face {
-    font-family: 'sohne-leicht';
-    src: url(../fonts/soehne-test-leicht.woff);
-    font-weight: 300;
+    font-family: 'basier-bold';
+    src: url(../fonts/basiersquare-bold-webfont.woff),
+         url(../fonts/basiersquare-bold-webfont.woff2);
 }
 
 @font-face {
-    font-family: 'sohne-halbfett';
-    src: url(..fonts/soehne-test-halbfett.woff);
-    font-weight: 600;
+    font-family: 'basier-italic';
+    src: url(../fonts/basiersquare-regularitalic-webfont.woff),
+         url(../fonts/basiersquare-regularitalic-webfont.woff2);
+}
+
+@font-face {
+    font-family: 'basier-mono';
+    src: url(../fonts/basiersquaremono-regular-webfont.woff),
+         url(../fonts/basiersquaremono-regular-webfont.woff2);
 }
 
 * {
@@ -20,15 +27,14 @@
 }
 
 html {
-    font-size: 17px;
+    font-size: 18px;
     color: #172B4D;
-    font-family: 'sohne-leicht';
-    font-weight: 300;
+    font-family: 'basier-reg';
 }
 
 body {
     padding: 1rem;
-    font-family: 'sohne-buch', sans-serif;
+    font-family: 'basier-reg';
 }
 
 main {
@@ -38,36 +44,35 @@ main {
 }
 
 p {
-    line-height: 1.4;
+    line-height: 1.2;
 }
 
 nav > ul > li {
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
 }
 
 nav > ul > li > a {
-    text-decoration: none;
     color: #172B4D;
-    font-family: 'sohne-halbfett', sans-serif;
-    font-weight: 600;
+    font-family: 'basier-reg';
+    line-height: 2;
+}
+
+nav h3 {
+    margin-bottom: .5rem;
+    letter-spacing: 0;
+    font-family: 'basier-mono';
 }
 
 .about-farley {
-    font-size: 24px;
+    font-size: 32px;
 }
 
 a {
-    text-decoration: none;
     color: #172B4D;
 }
 
 strong {
-    font-family: 'sohne-buch', sans-serif;
-    font-weight: 400;
-}
-
-h1.bullpen-title {
-    margin-bottom: 1rem;
+    font-family: 'basier-bold';
 }
 
 h2:first-of-type {
@@ -85,7 +90,7 @@ h3 {
 
 h4 {
     margin-bottom: -.4rem;
-    font-style: italic;
+    font-family: 'basier-italic';
     font-weight: 400;
 }
 
@@ -93,7 +98,7 @@ ul {
     padding: 0;
     list-style: none;
     margin-bottom: 2.4rem;
-    font-family: 'sohne-leicht';
+    font-family: 'basier-reg';
     font-weight: 300;
 }
 

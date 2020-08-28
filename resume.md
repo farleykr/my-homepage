@@ -6,7 +6,7 @@ layout: base.njk
 farleykreynolds@gmail.com
 757-636-7432
 
-* *Currently serving as a web developer at NASA's Atmospheric Science Data Center*
+* Currently serving as a web developer at NASA's Atmospheric Science Data Center
 
 ### TECHNICAL SKILLS
 
@@ -15,8 +15,7 @@ farleykreynolds@gmail.com
 * Fundamental knowledge of networking concepts and protocols
 * Able to implement web APIs or build apps to consume them
 * Git version control system
-* Web programming with HTML, CSS
-* JavaScript and React
+* Web programming with HTML, CSS, and JavaScript
 * Python programming for a variety of use cases, primarily web app development
 
 
@@ -29,10 +28,13 @@ farleykreynolds@gmail.com
 
 #### Web Developer, NASA Atmospheric Science Data Center, June 2019 - Present
 
-* My primary responsibility is the building and maintenance of a web application that allows users to download and interact with satellite data
-* Said web application is built with Django, draws data from a variety of sources, is backed by a PostgreSQL database, version controlled by Git, and deployed on Red Hat OpenShift on-premisise cloud
-* I organize and facilitate a weekly Developer Community of Practice meeting
-* A good portion of my time is spent mentoring less experienced developers via official training sessions and code reviews
+* My primary responsibility is the maintenance of the [Earthdata Forum](https://forum.earthdata.nasa.gov): A forum built on the LAMP stack and deployed on the Red Hat OpenShift on-premises cloud. The purpose of the Forum is to enable collaboration between scientists and developers working at NASA's various satellite data archive centers.
+* Maintenance of the Earthdata Forum includes continued code releases involving security patches, package upgrades, and new feature implementation
+* I recently "Dockerized" the Earthdata Forum, using Docker Compose to run the Forum on multiple containers, in order to create an easily distributable code base that developers at other archive centers can use for testing and development.
+* Before working on the Earthdata Forum I spent a year helping build and maintain a web application that enables users to download and interact with satellite data
+* Said web application is built with Django, draws data from a variety of sources, is backed by a PostgreSQL database, version controlled by Git, and deployed on Red Hat OpenShift on-premises cloud
+* I organized and facilitated a weekly Developer Community of Practice meeting for about a year
+* I also have spent a lot of time teaching development skills and techniques to my coworkers in non-developer roles to enable better communication and understanding between our roles
 * All our work at the ASDC is conducted within the Scaled Agile Framework
 
 
